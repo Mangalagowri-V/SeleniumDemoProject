@@ -1,0 +1,10 @@
+com\Banking\PageObject\LoginPage.class
+com\Banking\Utilities\ReadConfig.class
+com\Banking\TestCase\TC_AddNewCustomer_003.class
+com\Banking\TestCase\TC_LoginTest_001.class
+com\Banking\Utilities\ExtentReport.class
+com\Banking\PageObject\AddCustomerDetaisPage.class
+com\Banking\TestCase\TC_LoginDDTTest_002.class
+com\Banking\Utilities\Xls_Reader.class
+com\Banking\TestCase\Arraylist.class
+com\Banking\TestCase\BaseClass.class
