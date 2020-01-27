@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [eBanking]">
+  <listeners>
+    <listener class-name="com.Banking.Utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Banking.TestCase.TC_AddNewCustomer_003">
+        <methods>
+          <include name="addcustomer"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Banking.TestCase.TC_AddNewCustomer_003 -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [eBanking] -->

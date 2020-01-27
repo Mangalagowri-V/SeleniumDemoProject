@@ -42,7 +42,7 @@ public class TC_AddNewCustomer_003 extends BaseClass {
 		addcus.setpin("750356");
 		Thread.sleep(3000);
 		addcus.setphonenum("12345678901");
-		String passemail = randomestring() + "gmail.com";
+		String passemail = randomestring() + "@gmail.com";
 		addcus.setemail(passemail);
 		addcus.setpwd("Passes1");
 		addcus.submit();
